@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ProfilePic from "../../public/images/profile/developer-pic-1.png";
 import AnimatedText from "../components/AnimatedText";
+
 import { LinkArrow } from "@/components/icons";
 export default function Home() {
   return (
