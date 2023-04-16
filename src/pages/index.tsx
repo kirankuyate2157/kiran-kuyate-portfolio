@@ -1,11 +1,12 @@
 import Head from "next/head";
-import Layout from "@/components/layout";
+import Layout from "../components/Layout";
 import Image from "next/image";
 import Link from "next/link";
+import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import ProfilePic from "../../public/images/profile/developer-pic-1.png";
 import AnimatedText from "../components/AnimatedText";
-
-import { LinkArrow } from "@/components/icons";
+import Hireme from "../components/Hireme";
+import { LinkArrow } from "../components/icons";
 export default function Home() {
   return (
     <>
@@ -16,7 +17,7 @@ export default function Home() {
       </Head>
       <main className='flex items-center text-dark w-full min-h-screen '>
         <Layout className='pt-0'>
-          <div className='flex bg-green-400 items-center justify-between w-full'>
+          <div className='flex  items-center justify-between w-full'>
             <div className='w-1/2'>
               <Image
                 src={ProfilePic}
@@ -54,6 +55,10 @@ export default function Home() {
             </div>
           </div>
         </Layout>
+        <Hireme />
+        <div className='absolute right-8 bottom-8 inline-block w-24'>
+          <Image src={lightBulb} alt='kiran.dev' className='w-full h-auto' />
+        </div>
       </main>
     </>
   );
