@@ -37,6 +37,7 @@ const Skills = () => {
         <Skill name='python' x='0vw' y='12vw' />
         <Skill name='Git/Github' x='-12vw' y='-10vw' />
         <Skill name='Java' x='-21vw' y='-15vw' />
+        <Skill name='C/C++' x='8vw' y='-5vw' />
         <Skill name='SQL' x='-29vw' y='-6vw' />
         <Skill name='DSA' x='-29vw' y='5vw' />
         <Skill name='ElectronJs' x='-5vw' y='-19vw' />
