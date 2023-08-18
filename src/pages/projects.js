@@ -10,8 +10,8 @@ import { motion } from "framer-motion";
 const FramerImage = motion(Image);
 const FeaturedPrject = ({ type, title, summary, img, link, github }) => {
   return (
-    <article className='w-full relative flex items-center justify-between rounded-3xl border border-solid border-dark bg-light shadow-2xl p-10'>
-      <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark' />
+    <article className='w-full relative flex items-center justify-between rounded-3xl border border-solid border-dark dark:border-light bg-light shadow-2xl p-10 dark:bg-dark'>
+      <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark dark:bg-light' />
       <Link
         href={link}
         target='_blank'
@@ -26,15 +26,19 @@ const FeaturedPrject = ({ type, title, summary, img, link, github }) => {
         />
       </Link>
       <div className='w-1/2 flex flex-col items-start justify-between pl-6'>
-        <span className='text-primary font-medium text-xl'>{type}</span>
+        <span className='text-primary dark:text-primaryDark font-medium text-xl'>
+          {type}
+        </span>
         <Link
           href={link}
           target='_blank'
           className='hover:underline underline-offset-2'
         >
-          <h2 className='my-2 w-full text-left text-4xl font-bold'>{title}</h2>
+          <h2 className='my-2 w-full text-left text-4xl font-bold  text-dark dark:text-light'>
+            {title}
+          </h2>
         </Link>
-        <p className='my-2 font-medium text-dark'>{summary}</p>
+        <p className='my-2 font-medium text-dark dark:text-light'>{summary}</p>
         <div className='flex items-center mt-2'>
           <Link href={link} target='_blank' className='w-10'>
             <GithubIcon />
@@ -42,7 +46,7 @@ const FeaturedPrject = ({ type, title, summary, img, link, github }) => {
           <Link
             href={link}
             target='_blank'
-            className='ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold'
+            className='ml-4 rounded-lg bg-dark text-light  dark:bg-light dark:text-dark p-2 px-6 text-lg font-semibold'
           >
             Visit Project
           </Link>
@@ -53,8 +57,8 @@ const FeaturedPrject = ({ type, title, summary, img, link, github }) => {
 };
 const Project = ({ type, title, img, link, github }) => {
   return (
-    <article className='w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative'>
-      <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[102%] rounded-[1.4rem] bg-dark' />{" "}
+    <article className='w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark dark:border-light  bg-light p-6 relative  dark:bg-dark'>
+      <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[102%] rounded-[1.4rem] bg-dark dark:bg-light' />
       <Link
         href={link}
         target='_blank'
@@ -69,13 +73,17 @@ const Project = ({ type, title, img, link, github }) => {
         />
       </Link>
       <div className='w-full flex flex-col items-start justify-between mt-4'>
-        <span className='text-primary font-medium text-xl'>{type}</span>
+        <span className='text-primary  dark:text-primaryDark font-medium text-xl'>
+          {type}
+        </span>
         <Link
           href={link}
           target='_blank'
           className='hover:underline underline-offset-2'
         >
-          <h2 className='my-2 w-full text-left text-3xl font-bold'>{title}</h2>
+          <h2 className='my-2 w-full text-left text-3xl font-bold text-dark dark:text-light'>
+            {title}
+          </h2>
         </Link>
 
         <div className=' w-full justify-between flex items-center mt-2'>
@@ -101,7 +109,7 @@ const projects = () => {
         <title>Kiran Kuyate | Projects </title>
         <meta name='description' content='my description' />
       </Head>
-      <main className='w-full mb-16 flex flex-col items-center justify-center text-dark/75'>
+      <main className='w-full mb-16 flex flex-col items-center justify-center text-dark/75 dark:text-light/75'>
         <Layout className='pt-16'>
           <AnimatedText text='Imagination Trump Knowledge' className='mb-16' />
           <div className='grid grid-cols-12 gap-24 gap-y-32'>

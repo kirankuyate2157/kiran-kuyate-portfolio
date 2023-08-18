@@ -15,7 +15,7 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className='flex items-center text-dark w-full min-h-screen '>
+      <main className='flex items-center text-dark w-full min-h-screen dark:text-light '>
         <Layout className='pt-0'>
           <div className='flex  items-center justify-between w-full'>
             <div className='w-1/2'>
@@ -40,14 +40,14 @@ export default function Home() {
                 <Link
                   href='/dummy.pdf'
                   target={"_blank"}
-                  className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark '
+                  className='flex items-center bg-dark text-light dark:bg-light dark:text-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark hover:dark:border-light hover:dark:bg-dark hover:dark:text-light '
                 >
                   Resume <LinkArrow className={"w-6 ml-1"} />
                 </Link>
                 <Link
                   href='mailto:kiranrkuyate2021@gmail.com'
                   target={"_blank"}
-                  className='ml-4 text-lg font-medium capitalize text-dark underline'
+                  className='ml-4 text-lg font-medium capitalize text-dark dark:text-light  underline'
                 >
                   Contact
                 </Link>
