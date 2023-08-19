@@ -7,6 +7,7 @@ import ProfilePic from "../../public/images/profile/developer-pic-1.png";
 import AnimatedText from "../components/AnimatedText";
 import Hireme from "../components/Hireme";
 import { LinkArrow } from "../components/icons";
+import TransitionEffect from "./../components/TransitionEffect";
 export default function Home() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light '>
+        <TransitionEffect />
         <Layout className='pt-0 md:pt-16 sm:pt-8'>
           <div className='flex  items-center justify-between w-full lg:flex-col'>
             <div className='w-1/2 md:w-full '>

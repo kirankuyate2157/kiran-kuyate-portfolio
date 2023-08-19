@@ -114,22 +114,6 @@ const Navbar = () => {
             className='w-6 mx-3'
             whileHover={{ y: -5 }}
           >
-            <PinterestIcon />
-          </motion.a>
-          <motion.a
-            href='http://tweeter.com'
-            target='_blank'
-            className='w-6 mx-3'
-            whileHover={{ y: -5 }}
-          >
-            <DribbbleIcon />
-          </motion.a>
-          <motion.a
-            href='http://tweeter.com'
-            target='_blank'
-            className='w-6 mx-3'
-            whileHover={{ y: -5 }}
-          >
             <GithubIcon />
           </motion.a>
           <button

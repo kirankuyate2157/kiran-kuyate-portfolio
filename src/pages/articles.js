@@ -6,6 +6,7 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import { motion, useMotionValue } from "framer-motion";
 import article1 from "../../public/images/articles/create loading screen in react js.jpg";
+import TransitionEffect from "../components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -107,6 +108,7 @@ const articles = () => {
         <meta name='description' content='any description..' />
       </Head>
       <main className='w-full mb-16 flex flex-col items-center justify-center overflow-hidden text-dark'>
+        <TransitionEffect />
         <Layout className='pt-16'>
           <AnimatedText
             text='words can change the world!'
