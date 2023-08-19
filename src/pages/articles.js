@@ -41,6 +41,8 @@ const MovingImg = ({ img, title, link }) => {
         ref={imgRef}
         src={img}
         alt={title}
+        priority
+        sizes='(max-width:768px) 100vw,(max-width:1200px) 50vw,33vw'
         className='z-10 w-96 h-auto hidden absolute rounded-lg'
       />
     </Link>
@@ -78,6 +80,8 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
           className='w-full h-auto'
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.3 }}
+          priority
+          sizes='(max-width:768px) 100vw,(max-width:1200px) 50vw,33vw'
         />
       </Link>
       <Link href={link} target='_blank'>
