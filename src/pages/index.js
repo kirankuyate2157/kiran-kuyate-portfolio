@@ -16,11 +16,12 @@ const Star = ({ top, left, color, size }) => {
       initial={{ opacity: 0, y: 0 }}
       animate={{ opacity: 1, y: -10 }}
       transition={{ duration: 1, repeat: Infinity, repeatType: "reverse" }}
-      className={`absolute w-${size} h-${size} bg-${color} rounded-full z-40`}
+      className={`absolute w-${size} h-${size} bg-${color} rounded-full z-50`}
       style={{ top, left }}
     />
   );
 };
+
 export default function Home() {
   let stars = [
     { top: "20%", left: "10%", color: "yellow-500", size: "3" },
@@ -87,11 +88,12 @@ export default function Home() {
           <div className='flex  items-center justify-between w-full lg:flex-col'>
             <div className='w-[40%] md:w-full relative '>
               <Star top='10%' left='10%' color='yellow-500' size='3' />
-              <Star top='50%' left='10%' color='green-500' size='4' />
-              <Star top='20%' left='30%' color='blue-500' size='4' />
-              <Star top='75%' left='83%' color='yellow-500' size='3' />
+              <Star top='20%' left='10%' color='primary' size='3' />
+              <Star top='20%' left='5%' color='primary' size='2' />
+              <Star top='75%' left='83%' color='primaryDark' size='3' />
               <Star top='80%' left='90%' color='green-500' size='4' />
               <Star top='85%' left='69%' color='blue-500' size='4' />
+
               {stars.map((star, index) => (
                 <Star
                   key={index}
