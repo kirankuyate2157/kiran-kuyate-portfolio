@@ -16,7 +16,7 @@ const Star = ({ top, left, color, size }) => {
       initial={{ opacity: 0, y: 0 }}
       animate={{ opacity: 1, y: -10 }}
       transition={{ duration: 1, repeat: Infinity, repeatType: "reverse" }}
-      className={`absolute w-${size} h-${size} bg-${color} rounded-full`}
+      className={`absolute w-${size} h-${size} bg-${color} rounded-full z-40`}
       style={{ top, left }}
     />
   );

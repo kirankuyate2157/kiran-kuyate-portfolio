@@ -5,7 +5,24 @@ import Layout from "@/components/Layout";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import p1 from "../../public/images/projects/p1.png";
+import p2 from "../../public/images/projects/p2.png";
+import p3 from "../../public/images/projects/p3.png";
+import p4 from "../../public/images/projects/p4.png";
+import p5 from "../../public/images/projects/p5.png";
+import p6 from "../../public/images/projects/p6.png";
+import p7 from "../../public/images/projects/p7.png";
+import p8 from "../../public/images/projects/p8.png";
+import p9 from "../../public/images/projects/p9.png";
+import p10 from "../../public/images/projects/p10.png";
+import p11 from "../../public/images/projects/p11.png";
+import p12 from "../../public/images/projects/p12.png";
+import p13 from "../../public/images/projects/p13.png";
+import p14 from "../../public/images/projects/p14.webp";
+import p15 from "../../public/images/projects/p15.png";
+import p16 from "../../public/images/projects/p16.png";
+import p17 from "../../public/images/projects/p17.png";
+import p18 from "../../public/images/projects/p18.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "../components/TransitionEffect";
 const FramerImage = motion(Image);
@@ -45,7 +62,7 @@ const FeaturedPrject = ({ type, title, summary, img, link, github }) => {
           {summary}
         </p>
         <div className='flex items-center mt-2'>
-          <Link href={link} target='_blank' className='w-10 sm:w-6 lg:w-8'>
+          <Link href={github} target='_blank' className='w-10 sm:w-6 lg:w-8'>
             <GithubIcon />
           </Link>
           <Link
@@ -101,7 +118,7 @@ const Project = ({ type, title, img, link, github }) => {
           >
             <span className='underline'>Visit</span> 🔗
           </Link>
-          <Link href={link} target='_blank' className='w-8 md:w-6'>
+          <Link href={github} target='_blank' className='w-8 md:w-6'>
             <GithubIcon />
           </Link>
         </div>
@@ -126,62 +143,180 @@ const projects = () => {
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-y-24 sm:gap-x-0'>
             <div className='col-span-12'>
               <FeaturedPrject
-                title='Crypto Screener Application'
-                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency.'
-                type='feature project'
-                img={project1}
-                link='https://placeholder'
-                github='https://placeholder'
+                title='Zomato web Application'
+                summary='A full-stack web application built with React, Node.js, Express, and MongoDB. Features include authentication, restaurant search, image sliders, payment integration, and more.'
+                type='Full-stack Project (MERN)'
+                img={p1} // Image of your project
+                link='https://zomato-project-b1bx.vercel.app/' // Link to your deployed app
+                github='https://github.com/kirankuyate2157/zomato-project' // Link to your GitHub repository
               />
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                title='Crypto Screener Application'
-                type='feature project'
-                img={project1}
-                link='https://placeholder'
-                github='https://placeholder'
+                title='Object Detection and Recognition'
+                type='python Project'
+                img={p3} // Image of your project
+                link='https://github.com/kirankuyate2157/Object-detecion-and-recognition'
+                github='https://github.com/kirankuyate2157/Object-detecion-and-recognition'
               />
             </div>
             <div className='col-span-6  sm:col-span-12'>
               <Project
-                title='Crypto Screener Application'
-                type='feature project'
-                img={project1}
-                link='https://placeholder'
-                github='https://placeholder'
+                title='MyAttendance System'
+                type='python Project'
+                img={p4} // Image of your project
+                link='https://github.com/kirankuyate2157/MyAttendace-System-'
+                github='https://github.com/kirankuyate2157/MyAttendace-System-' // Link to your GitHub repository
               />
             </div>
             <div className='col-span-12'>
               <FeaturedPrject
-                title='Crypto Screener Application'
-                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency.'
-                type='feature project'
-                img={project1}
-                link='https://placeholder'
-                github='https://placeholder'
+                title='Book My Show web Application'
+                summary='My first React project - a clone of the Book My Show website. Built with React, Redux, and Tailwind CSS. Integrates with APIs to display movies and details. Includes Razorpay integration for secure online payments.'
+                type='React Project'
+                img={p2} // Image of your project
+                link='https://book-my-show-seven-taupe.vercel.app' // Link to your deployed app
+                github='https://github.com/kirankuyate2157/book-my-show' // Link to your GitHub repository
               />
             </div>
             <div className='col-span-6  sm:col-span-12'>
               <Project
-                title='Crypto Screener Application'
-                type='feature project'
-                img={project1}
-                link='https://placeholder'
-                github='https://placeholder'
+                title='HooBank Website'
+                type='UI project'
+                img={p6}
+                link='https://morden-bank-app.vercel.app/'
+                github='https://github.com/kirankuyate2157/morden-bank-app'
               />
             </div>
             <div className='col-span-6  sm:col-span-12'>
               <Project
-                title='Crypto Screener Application'
+                title='GERICHT Restaurant'
                 type='feature project'
-                img={project1}
+                img={p7}
+                link='https://amazing-restaurant.vercel.app/'
+                github='https://github.com/kirankuyate2157/amazing-restaurant'
+              />
+            </div>
+            <div className='col-span-12'>
+              <FeaturedPrject
+                title='The Nari'
+                summary='A collaborative project built during the SheBuild Hackathon in just 24 hours, bringing together talents from team-4  2 VIT, 1 IIT, and me . This platform, powered by React and a variety of tools including Map, Authentication, Email Services, Firebase, and Figma, is dedicated to empowering and supporting women.'
+                type='Hackathon Project'
+                img={p5}
+                link='https://the-nari.vercel.app/'
+                github='https://github.com/kirankuyate2157/the-Nari'
+              />
+            </div>
+            <div className='col-span-6  sm:col-span-12'>
+              <Project
+                title='Pulse Rate Monitor'
+                type='Ardino project'
+                img={p8}
+                link='https://drive.google.com/file/d/1wK11Y1pGWyWA8vmotRT_TMXYF4AGjHDY/view?usp=drivesdk'
+                github='https://github.com/kirankuyate2157/PulseMonitoringSys'
+              />
+            </div>
+            <div className='col-span-6  sm:col-span-12'>
+              <Project
+                title='Air Pollution Monitoring '
+                type='Ardino project'
+                img={p9}
+                link='https://github.com/kirankuyate2157/AirPollutionMonitoringSys'
+                github='https://github.com/kirankuyate2157/AirPollutionMonitoringSys'
+              />
+            </div>
+            <div className='col-span-12'>
+              <FeaturedPrject
+                title='Dragon VS (Video Steganography)'
+                summary='Securing Confidential communication and data transmission through video steganography. This technique hides any kind of file into a cover video file, making use of the video-based steganography.'
+                type='Java cryptography project'
+                img={p10}
+                link='https://github.com/kirankuyate2157/Dragon-VS-video-stenography-'
+                github='https://github.com/kirankuyate2157/Dragon-VS-video-stenography-'
+              />
+            </div>
+            <div className='col-span-6  sm:col-span-12'>
+              <Project
+                title='OpenAI - GPT-3 web'
+                type='Ui react project'
+                img={p11}
+                link='https://ai-gpt3-mu.vercel.app/'
+                github='https://github.com/kirankuyate2157/Ai-gpt3'
+              />
+            </div>
+            <div className='col-span-6  sm:col-span-12'>
+              <Project
+                title='Pokemon Project'
+                img={p12}
+                type='API fetching static page'
+                link='http://pokemon-web-swart.vercel.app/'
+                github='https://github.com/kirankuyate2157/pokemon-web'
+              />
+            </div>
+            <div className='col-span-12'>
+              <FeaturedPrject
+                title='Bus Ticket System'
+                summary="Welcome to the Bus Booking System! This project offers a comprehensive overview of features including user login, route selection, location information, ticket booking, SQL database management, and seat booking visualization. Built using Python's Tkinter library, the application provides a seamless experience for searching and booking bus tickets."
+                type='python project'
+                img={p13}
+                github='https://github.com/kirankuyate2157/Bus-Ticket-Sys'
+                link='https://github.com/kirankuyate2157/Bus-Ticket-Sys'
+              />
+            </div>
+            <div className='col-span-6  sm:col-span-12'>
+              <Project
+                title='Rennzon Social Web App'
+                type='django python project'
+                img={p14}
+                github='https://github.com/kirankuyate2157/rennzonsocial'
                 link='https://placeholder'
-                github='https://placeholder'
+              />
+            </div>
+            <div className='col-span-6  sm:col-span-12'>
+              <Project
+                title='ApnaTodo Web App'
+                type='React JavaScript Project'
+                img={p15}
+                github='https://github.com/kirankuyate2157/ApnaTodo'
+                link='https://apna-todo.vercel.app/'
+              />
+            </div>
+            <div className='col-span-12'>
+              <FeaturedPrject
+                title='Tribute Page of Arijit Singh'
+                summary="Explore Arijit Singh's musical journey, style, and impact. Engaging scrollable design, responsive layout, interactive animations, and captivating cards."
+                type='Web Development Project'
+                img={p16}
+                github='https://github.com/kirankuyate2157/tribute-page-v2'
+                link='https://arijit-tribute-page.vercel.app/'
+              />
+            </div>
+            <div className='col-span-6  sm:col-span-12'>
+              <Project
+                title='Zomato Restaurants Analysis'
+                type='Data Analysis Project'
+                img={p17}
+                link='https://www.kaggle.com/code/procomp/zomato-restaurants-analysis'
+                github='https://www.kaggle.com/code/procomp/zomato-restaurants-analysis'
+              />
+            </div>
+            <div className='col-span-6  sm:col-span-12'>
+              <Project
+                title='Bike Analysis'
+                type='Data Analysis Project'
+                img={p18}
+                link='https://www.kaggle.com/code/procomp/bike-analysis'
+                github='https://www.kaggle.com/code/procomp/bike-analysis'
+              />
+            </div>
+            <div className='col-span-12'>
+              <FeaturedPrject
+                title='Kiran Kuyate Portfolio'
+                summary='My personal portfolio website built with Next.js, Framer Motion, and Tailwind CSS. Explore my projects, skills, and journey through interactive animations and a user-friendly interface.'
+                type='Personal Portfolio'
+                img={p18}
+                link='https://kiran-kuyate-portfolio.vercel.app/'
+                github='https://github.com/kirankuyate2157/kiran-kuyate-portfolio'
               />
             </div>
           </div>
