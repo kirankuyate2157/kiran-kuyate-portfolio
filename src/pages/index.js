@@ -9,7 +9,6 @@ import Hireme from "../components/Hireme";
 import { LinkArrow } from "../components/icons";
 import TransitionEffect from "./../components/TransitionEffect";
 import { motion } from "framer-motion";
-import UserPopup from "./../components/UserPopup";
 
 const Star = ({ top, left, color, size }) => {
   return (
@@ -146,7 +145,6 @@ export default function Home() {
         <div className='absolute right-8 bottom-8 inline-block w-24 sm:hidden'>
           <Image src={lightBulb} alt='kiran.dev' className='w-full h-auto' />
         </div>
-        <UserPopup />
       </main>
     </>
   );
