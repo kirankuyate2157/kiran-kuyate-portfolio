@@ -23,6 +23,7 @@ import p15 from "../../public/images/projects/p15.png";
 import p16 from "../../public/images/projects/p16.png";
 import p17 from "../../public/images/projects/p17.png";
 import p18 from "../../public/images/projects/p18.png";
+import p19 from "../../public/images/projects/p19.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "../components/TransitionEffect";
 const FramerImage = motion(Image);
@@ -314,7 +315,7 @@ const projects = () => {
                 title='Kiran Kuyate Portfolio'
                 summary='My personal portfolio website built with Next.js, Framer Motion, and Tailwind CSS. Explore my projects, skills, and journey through interactive animations and a user-friendly interface.'
                 type='Personal Portfolio'
-                img={p18}
+                img={p19}
                 link='https://kiran-kuyate-portfolio.vercel.app/'
                 github='https://github.com/kirankuyate2157/kiran-kuyate-portfolio'
               />
