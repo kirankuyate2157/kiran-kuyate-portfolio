@@ -24,6 +24,8 @@ import p16 from "../../public/images/projects/p16.png";
 import p17 from "../../public/images/projects/p17.png";
 import p18 from "../../public/images/projects/p18.png";
 import p19 from "../../public/images/projects/p19.png";
+import p20 from "../../public/images/projects/p20.png";
+import p21 from "../../public/images/projects/p21.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "../components/TransitionEffect";
 const FramerImage = motion(Image);
@@ -318,6 +320,24 @@ const projects = () => {
                 img={p19}
                 link='https://kiran-kuyate-portfolio.vercel.app/'
                 github='https://github.com/kirankuyate2157/kiran-kuyate-portfolio'
+              />
+            </div>
+            <div className='col-span-6  sm:col-span-12'>
+              <Project
+                title='Markdown-Previewer'
+                type='Web Application'
+                img={p21} // Replace with the actual image URL
+                github='https://github.com/kirankuyate2157/Markdown-Previewer'
+                link='https://kirankuyate2157.github.io/Markdown-Previewer/'
+              />
+            </div>
+            <div className='col-span-6  sm:col-span-12'>
+              <Project
+                title='randomQuotes'
+                type='Web Application'
+                img={p20} // Replace with the actual image URL
+                github='https://github.com/kirankuyate2157/randomQuotes'
+                link='https://kirankuyate2157.github.io/randomQuotes/'
               />
             </div>
           </div>

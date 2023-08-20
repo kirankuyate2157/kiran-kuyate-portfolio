@@ -5,7 +5,10 @@ import Image from "next/image";
 import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import { motion, useMotionValue } from "framer-motion";
-import article1 from "../../public/images/articles/create loading screen in react js.jpg";
+import a1 from "../../public/images/articles/a1.png";
+import a2 from "../../public/images/articles/a2.png";
+// import a3 from "../../public/images/articles/a3.avif";
+import a4 from "../../public/images/articles/a4.png";
 import TransitionEffect from "../components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -116,20 +119,18 @@ const articles = () => {
           />
           <ul className='grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16'>
             <FeaturedArticle
-              title='Build A Custom Pagination Component In Reactjs From Scratch'
-              summary='Learn how to build a custom pagination component in ReactJS from scratch. 
-Follow this step-by-step guide to integrate Pagination component in your ReactJS project.'
-              time='9 min read'
-              img={article1}
-              link='/'
+              title='simple Git and GitHub 💖'
+              summary='Learn how to use Git and github in your development,basic commands to some advance in simple words'
+              time='7 min read'
+              img={a1}
+              link='https://kiran2157.hashnode.dev/simple-git-and-github'
             />
             <FeaturedArticle
-              title='Build A Custom Pagination Component In Reactjs From Scratch'
-              summary='Learn how to build a custom pagination component in ReactJS from scratch. 
-Follow this step-by-step guide to integrate Pagination component in your ReactJS project.'
-              time='9 min read'
-              img={article1}
-              link='/'
+              title='Javascript obfustication and Re-obfustication'
+              summary='Obfuscation means making something difficult to understand. Programming code is often obfuscated to protect intellectual property or trade secrets..'
+              time='8 min read'
+              img={a2}
+              link='https://kiran2157.hashnode.dev/javascript-obfustication-and-re-obfustication'
             />
           </ul>
           <h2 className='font-bold text-4xl w-full text-center my-16 mt-32'>
@@ -137,34 +138,34 @@ Follow this step-by-step guide to integrate Pagination component in your ReactJS
           </h2>
           <ul>
             <Article
-              title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling'
-              date='Aug 17,2023'
-              link='/'
-              img={article1}
+              title='Features of Object-Oriented Programming.some important concepts and terminologies '
+              date='Feb 20,2022'
+              link='https://kiran2157.hashnode.dev/features-of-object-oriented-programming'
+              img={a4}
             />
             <Article
-              title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling'
-              date='Aug 17,2023'
-              link='/'
-              img={article1}
+              title='The Kiran.  Lights, camera, action! cue dramatic music No, no, no, this is not a Bollywood movie. This is my jou… '
+              date='Jan  31,2022'
+              link='https://kiran2157.hashnode.dev/features-of-object-oriented-programming'
+              img={a4}
             />
             <Article
-              title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling'
-              date='Aug 17,2023'
-              link='/'
-              img={article1}
+              title='Features of Object-Oriented Programming.some important concepts and terminologies '
+              date='Feb 20,2022'
+              link='https://kiran2157.hashnode.dev/features-of-object-oriented-programming'
+              img={a1}
             />
             <Article
-              title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling'
-              date='Aug 17,2023'
-              link='/'
-              img={article1}
+              title='Features of Object-Oriented Programming.some important concepts and terminologies '
+              date='Feb 20,2022'
+              link='https://kiran2157.hashnode.dev/features-of-object-oriented-programming'
+              img={a1}
             />
             <Article
-              title='Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling'
-              date='Aug 17,2023'
-              link='/'
-              img={article1}
+              title='Features of Object-Oriented Programming.some important concepts and terminologies '
+              date='Feb 20,2022'
+              link='https://kiran2157.hashnode.dev/features-of-object-oriented-programming'
+              img={a1}
             />
           </ul>
         </Layout>

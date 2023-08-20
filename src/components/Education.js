@@ -55,7 +55,7 @@ const Education = () => {
             type='XII (HSC)'
             time='2020'
             place='K.K.W College, Pimpalgaon(B)'
-            info='Completed Higher Secondary Education with a focus on Science.'
+            info='Completed Higher Secondary Education with a focus on Science with PCMB.'
           />
 
           <Details

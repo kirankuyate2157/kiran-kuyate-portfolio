@@ -9,6 +9,7 @@ import Hireme from "../components/Hireme";
 import { LinkArrow } from "../components/icons";
 import TransitionEffect from "./../components/TransitionEffect";
 import { motion } from "framer-motion";
+import UserPopup from "./../components/UserPopup";
 
 const Star = ({ top, left, color, size }) => {
   return (
@@ -113,7 +114,7 @@ export default function Home() {
             </div>
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
               <AnimatedText
-                text='Pioneering Tomorrow`s Code Horizons'
+                text='Shaping Future Code Horizons'
                 className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'
               />
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
@@ -145,6 +146,7 @@ export default function Home() {
         <div className='absolute right-8 bottom-8 inline-block w-24 sm:hidden'>
           <Image src={lightBulb} alt='kiran.dev' className='w-full h-auto' />
         </div>
+        <UserPopup />
       </main>
     </>
   );
