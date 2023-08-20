@@ -52,49 +52,24 @@ const Experience = () => {
         />
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
           <Details
-            position='Software Engineer'
-            company='Google'
-            time='2022-Present'
-            address='Mountain View, CA'
-            work=" Worked on a team responsible for developing new features for Google's search
-          engine, including improving the accuracy and relevance of search
-          results and developing new tools for data analysis and visualization."
+            position='SDE INTERN'
+            company='GEENIE WEB'
+            time='Jan 2023 - May 2023'
+            address='Singapore'
+            work='Worked on a desktop application using ElectronJS, conducted research, and implemented
+  ideas for UI & Backend API. Collaborated with team members as Team Lead to ensure a
+  high-quality end-product and achieved 60% updates in the app.'
           />
+
           <Details
-            position='Software Engineer'
-            company='Google'
-            time='2022-Present'
-            address='Mountain View, CA'
-            work=" Worked on a team responsible for developing new features for Google's search
-        engine, including improving the accuracy and relevance of search
-        results and developing new tools for data analysis and visualization."
-          />
-          <Details
-            position='Software Engineer'
-            company='Google'
-            time='2022-Present'
-            address='Mountain View, CA'
-            work=" Worked on a team responsible for developing new features for Google's search
-      engine, including improving the accuracy and relevance of search
-      results and developing new tools for data analysis and visualization."
-          />
-          <Details
-            position='Software Engineer'
-            company='Google'
-            time='2022-Present'
-            address='Mountain View, CA'
-            work=" Worked on a team responsible for developing new features for Google's search
-    engine, including improving the accuracy and relevance of search
-    results and developing new tools for data analysis and visualization."
-          />
-          <Details
-            position='Software Engineer'
-            company='Google'
-            time='2022-Present'
-            address='Mountain View, CA'
-            work=" Worked on a team responsible for developing new features for Google's search
-  engine, including improving the accuracy and relevance of search
-  results and developing new tools for data analysis and visualization."
+            position='DATA ANALYST INTERN'
+            company='DEVTOWN'
+            time='Jun 2021 - Sept 2021'
+            address='Mumbai, India'
+            work='Worked on Machine learning, NLP, Data Analyzing tools, and libraries to predict
+  valuable data for making decisions for students’ course recommendations. Conducted
+  daily doubt-solving sessions with 50+ students, fostering better understanding and
+  learning.'
           />
         </ul>
       </div>

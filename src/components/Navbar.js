@@ -92,7 +92,7 @@ const Navbar = () => {
         </nav>
         <nav className='flex items-center justify-center flex-wrap'>
           <motion.a
-            href='http://tweeter.com'
+            href='https://twitter.com/kuyatekiran'
             target='_blank'
             className='w-6 mr-3'
             whileHover={{ y: -5 }}
@@ -101,7 +101,7 @@ const Navbar = () => {
             <TwitterIcon />
           </motion.a>
           <motion.a
-            href='http://tweeter.com'
+            href='https://www.linkedin.com/in/kirankuyate'
             target='_blank'
             className='w-6 mx-3'
             whileHover={{ y: -5 }}
@@ -109,7 +109,7 @@ const Navbar = () => {
             <LinkedInIcon />
           </motion.a>
           <motion.a
-            href='http://tweeter.com'
+            href='https://github.com/kirankuyate2157'
             target='_blank'
             className='w-6 mx-3'
             whileHover={{ y: -5 }}
@@ -167,7 +167,7 @@ const Navbar = () => {
           </nav>
           <nav className='flex items-center gap-2 justify-center flex-wrap mt-3'>
             <motion.a
-              href='http://tweeter.com'
+              href='https://twitter.com/kuyatekiran'
               target='_blank'
               className='w-6 '
               whileHover={{ y: -5 }}
@@ -176,7 +176,7 @@ const Navbar = () => {
               <TwitterIcon />
             </motion.a>
             <motion.a
-              href='http://tweeter.com'
+              href='https://www.linkedin.com/in/kirankuyate/'
               target='_blank'
               className='w-6 '
               whileHover={{ y: -5 }}
@@ -184,7 +184,7 @@ const Navbar = () => {
               <LinkedInIcon />
             </motion.a>
             <motion.a
-              href='http://tweeter.com'
+              href='https://github.com/kirankuyate2157'
               target='_blank'
               className='w-6  rounded-full border dark:text-dark  border-light dark:border-dark '
               whileHover={{ y: -5 }}

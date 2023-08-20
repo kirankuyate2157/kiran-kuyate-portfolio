@@ -45,32 +45,24 @@ const Education = () => {
         />
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
           <Details
-            type='Bachelor Of Science In Computer Science'
-            time='2016-2020'
-            place='Massachusetts Institute Of Technology (MIT)'
-            info='Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-       Intelligence.'
-          />{" "}
+            type='B.E Computer Science'
+            time='Dec 2020 - Present'
+            place='Pune University'
+            info={`Currently pursuing a Bachelor's degree in Computer Science from MCOERC, Nashik, affiliated with Pune University.\n Current CGPA: 8.39`}
+          />
+
           <Details
-            type='Bachelor Of Science In Computer Science'
-            time='2016-2020'
-            place='Massachusetts Institute Of Technology (MIT)'
-            info='Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-     Intelligence.'
-          />{" "}
+            type='XII (HSC)'
+            time='2020'
+            place='K.K.W College, Pimpalgaon(B)'
+            info='Completed Higher Secondary Education with a focus on Science.'
+          />
+
           <Details
-            type='Bachelor Of Science In Computer Science'
-            time='2016-2020'
-            place='Massachusetts Institute Of Technology (MIT)'
-            info='Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-   Intelligence.'
-          />{" "}
-          <Details
-            type='Bachelor Of Science In Computer Science'
-            time='2016-2020'
-            place='Massachusetts Institute Of Technology (MIT)'
-            info='Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
- Intelligence.'
+            type='X (SSC)'
+            time='2018'
+            place='Yogeshwari Vidyalaya, Dawachwadi'
+            info='Completed Secondary School Education with a focus on Semi-English Mode of learning '
           />
         </ul>
       </div>
