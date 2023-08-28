@@ -26,6 +26,8 @@ import p18 from "../../public/images/projects/p18.png";
 import p19 from "../../public/images/projects/p19.png";
 import p20 from "../../public/images/projects/p20.png";
 import p21 from "../../public/images/projects/p21.png";
+import refine from "../../public/images/projects/refine.png";
+import underdev from "../../public/images/projects/underdev.gif";
 import { motion } from "framer-motion";
 import TransitionEffect from "../components/TransitionEffect";
 const FramerImage = motion(Image);
@@ -144,6 +146,24 @@ const projects = () => {
             className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'
           />
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-y-24 sm:gap-x-0'>
+            <div className='col-span-6 sm:col-span-12'>
+              <Project
+                title='Components'
+                type='MERN Project'
+                img={underdev} // Image of your project
+                link='https://github.com/kirankuyate2157/Compomponents'
+                github='https://github.com/kirankuyate2157/Compomponents'
+              />
+            </div>
+            <div className='col-span-6  sm:col-span-12'>
+              <Project
+                title='Yarigo real-Estate Dashboard'
+                type='MERN Refine Project'
+                img={refine} // Image of your project
+                link='https://refine-dashboard-tan.vercel.app/'
+                github='https://github.com/kirankuyate2157/refine_dashboard' // Link to your GitHub repository
+              />
+            </div>
             <div className='col-span-12'>
               <FeaturedPrject
                 title='Zomato web Application'
