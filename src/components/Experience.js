@@ -51,6 +51,18 @@ const Experience = () => {
           className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-primaryDark dark:shadow-primaryDark drop-shadow-2xl  md:w-[2px] md:left-[30px] xs:left-[20px]'
         />
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
+         
+        <Details
+            position='Full stack dev INTERN'
+            company='Search-In'
+            time='Jan 2024 - Present'
+            address='Pune'
+            work='working on end-to-end development for Shopify Vendor, Dropshiper, ensuring
+            seamless API integration with Shopify and Shoprocket. Collaborating
+            cross-functionally with the team, utilizing MERN stack and UI frameworks for
+            efficient development and architecture of app.'
+          />
+
           <Details
             position='SDE INTERN'
             company='GEENIE WEB'

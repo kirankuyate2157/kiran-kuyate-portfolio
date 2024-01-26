@@ -48,7 +48,7 @@ const Education = () => {
             type='B.E Computer Science'
             time='Dec 2020 - Present'
             place='Pune University'
-            info={`Currently pursuing a Bachelor's degree in Computer Science from MCOERC, Nashik, affiliated with Pune University.\n Current CGPA: 8.39`}
+            info={`Currently pursuing a Bachelor's degree in Computer Science from MCOERC, Nashik, affiliated with Pune University.\n Current CGPA: 8.42`}
           />
 
           <Details

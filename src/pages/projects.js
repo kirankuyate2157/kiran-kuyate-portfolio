@@ -26,6 +26,7 @@ import p18 from "../../public/images/projects/p18.png";
 import p19 from "../../public/images/projects/p19.png";
 import p20 from "../../public/images/projects/p20.png";
 import p21 from "../../public/images/projects/p21.png";
+import p22 from "../../public/images/projects/p22.png";
 import refine from "../../public/images/projects/refine.png";
 import underdev from "../../public/images/projects/underdev.gif";
 import { motion } from "framer-motion";
@@ -146,6 +147,16 @@ const projects = () => {
             className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'
           />
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-y-24 sm:gap-x-0'>
+          <div className='col-span-12'>
+              <FeaturedPrject
+                title='Custom portfolio and professional App'
+                summary='A full-stack web application built with NextJs, Node.js, Express,Tailwinds Css and Firebase. Features include authentication,landing forms,user can (post,like,comment,share), user can make there personal portfolio and share with other(customize), can view analytics, and more.'
+                type='Full-stack Project (MERN)'
+                img={p22} // Image of your project
+                link='https://custome-portfolio.vercel.app' // Link to your deployed app
+                github='https://github.com/kirankuyate2157/custome-portfolio' // Link to your GitHub repository
+              />
+            </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project
                 title='Components'
