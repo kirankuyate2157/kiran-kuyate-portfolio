@@ -27,6 +27,8 @@ import p19 from "../../public/images/projects/p19.png";
 import p20 from "../../public/images/projects/p20.png";
 import p21 from "../../public/images/projects/p21.png";
 import p22 from "../../public/images/projects/p22.png";
+import p23 from "../../public/images/projects/p23.png";
+import p24 from "../../public/images/projects/p24.png";
 import refine from "../../public/images/projects/refine.png";
 import underdev from "../../public/images/projects/underdev.gif";
 import { motion } from "framer-motion";
@@ -144,9 +146,28 @@ const projects = () => {
         <Layout className='pt-16'>
           <AnimatedText
             text='Imagination Trump Knowledge'
-            className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'
+            className='mb-16 lg:!text-5xl sm:!text-4xl xs:!text-3xl sm:mb-8'
           />
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-y-24 sm:gap-x-0'>
+         
+          <div className='col-span-6 sm:col-span-12'>
+              <Project
+                title='Coupon App'
+                type='MERN Project'
+                img={p23} // Image of your project
+                link='https://coupons-web-ten.vercel.app'
+                github='https://github.com/kirankuyate2157/coupons-Web'
+              />
+            </div>
+            <div className='col-span-6  sm:col-span-12'>
+              <Project
+                title='Advance Mail desktop App'
+                type='Electron.Js Project'
+                img={p24} // Image of your project
+                link='https://github.com/kirankuyate2157/AdvanceMails'
+                github='https://github.com/kirankuyate2157/AdvanceMails' // Link to your GitHub repository
+              />
+            </div>
           <div className='col-span-12'>
               <FeaturedPrject
                 title='Custom portfolio and professional App'
