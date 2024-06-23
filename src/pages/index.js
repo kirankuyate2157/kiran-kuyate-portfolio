@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 import Image from "next/image";
 import Link from "next/link";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
-import ProfilePic from "../../public/images/profile/pa3.png";
+import ProfilePic from "../../public/images/profile/p0.png";
 import AnimatedText from "../components/AnimatedText";
 import Hireme from "../components/Hireme";
 import { LinkArrow } from "../components/icons";
@@ -125,7 +125,7 @@ export default function Home() {
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link
-                  href='/kiran_Kuyate_2024.pdf'
+                  href='/Kiran_Kuyate_7083418824_2024_Resume.pdf'
                   target={"_blank"}
                   className='flex items-center bg-dark text-light dark:bg-light dark:text-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark hover:dark:border-light hover:dark:bg-dark hover:dark:text-light  md:p-2 md:px-4 md:text-base'
                 >

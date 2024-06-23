@@ -55,11 +55,11 @@ const Experience = () => {
         <Details
             position='Full stack dev INTERN'
             company='Search-In'
-            time='Jan 2024 - Present'
-            address='Pune'
-            work='working on end-to-end development for Shopify Vendor, Dropshiper, ensuring
+            time='Jan 2024 - May 2024'
+            address='Pune (remote)'
+            work='Work on end-to-end development for Shopify Vendor, Dropshiper, ensuring
             seamless API integration with Shopify and Shoprocket. Collaborating
-            cross-functionally with the team, utilizing MERN stack and UI frameworks for
+            cross-functionally with the team, utilizing MERN stack, AWS, code Reviews, Best practices and UI frameworks for
             efficient development and architecture of app.'
           />
 
@@ -67,7 +67,7 @@ const Experience = () => {
             position='SDE INTERN'
             company='GEENIE WEB'
             time='Jan 2023 - May 2023'
-            address='Singapore'
+            address='Singapore (remote)'
             work='Worked on a desktop application using ElectronJS, conducted research, and implemented
   ideas for UI & Backend API. Collaborated with team members as Team Lead to ensure a
   high-quality end-product and achieved 60% updates in the app.'

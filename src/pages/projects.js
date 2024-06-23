@@ -29,6 +29,9 @@ import p21 from "../../public/images/projects/p21.png";
 import p22 from "../../public/images/projects/p22.png";
 import p23 from "../../public/images/projects/p23.png";
 import p24 from "../../public/images/projects/p24.png";
+import p25 from "../../public/images/projects/p25.png";
+import p26 from "../../public/images/projects/p26.png";
+import p27 from "../../public/images/projects/p27.png";
 import refine from "../../public/images/projects/refine.png";
 import underdev from "../../public/images/projects/underdev.gif";
 import { motion } from "framer-motion";
@@ -149,7 +152,34 @@ const projects = () => {
             className='mb-16 lg:!text-5xl sm:!text-4xl xs:!text-3xl sm:mb-8'
           />
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-y-24 sm:gap-x-0'>
-         
+          <div className='col-span-6 sm:col-span-12'>
+              <Project
+                title='Hiring platform'
+                type='MERN Project'
+                img={p25} // Image of your project
+                link='https://kways-hr.vercel.app'
+                github='https://github.com/kirankuyate2157/HR-app'
+              />
+            </div>
+            <div className='col-span-6  sm:col-span-12'>
+              <Project
+                title='Space X Web'
+                type='Nextjs + graphQl'
+                img={p26} // Image of your project
+                link='https://space-x-gql-gilt.vercel.app'
+                github='https://github.com/kirankuyate2157/SpaceX-gql' // Link to your GitHub repository
+              />
+            </div>
+            <div className='col-span-12'>
+              <FeaturedPrject
+                title='Malware Detection using ML'
+                summary='A Streamlit web application built with Python, ML, Streamlit,PE datasets and Hash dataset. Features include authentication,PD scan,System Scan,File upload and scan user and Report generation & generated report mail to user mail can view analytics, and more.'
+                type='Cyber security project in Python and ML '
+                img={p27} // Image of your project
+                link='https://kirankuyate2157-malware-detection-main-fhthfa.streamlit.app' // Link to your deployed app
+                github='https://github.com/kirankuyate2157/malware-detection' // Link to your GitHub repository
+              />
+            </div>
           <div className='col-span-6 sm:col-span-12'>
               <Project
                 title='Coupon App'

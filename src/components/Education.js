@@ -46,9 +46,9 @@ const Education = () => {
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
           <Details
             type='B.E Computer Science'
-            time='Dec 2020 - Present'
+            time='Dec 2020 - Jun 2024'
             place='Pune University'
-            info={`Currently pursuing a Bachelor's degree in Computer Science from MCOERC, Nashik, affiliated with Pune University.\n Current CGPA: 8.42`}
+            info={`Currently pursuing a Bachelor's degree in Computer Science from MCOERC, Nashik, affiliated with Pune University.\n CGPA: 8.48. During academics periods i was involved in various activities (mostly outside) attend/arrange tech workshops, attend events, Hackthons, tranings, Internships, engage with online community's and persuved various skills and experiences.`}
           />
 
           <Details

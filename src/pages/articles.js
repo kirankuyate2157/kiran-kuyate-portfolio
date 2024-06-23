@@ -9,6 +9,7 @@ import a1 from "../../public/images/articles/a1.png";
 import a2 from "../../public/images/articles/a2.png";
 // import a3 from "../../public/images/articles/a3.avif";
 import a4 from "../../public/images/articles/a4.png";
+import av4 from "../../public/images/articles/a4.avif";
 import TransitionEffect from "../components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -118,6 +119,13 @@ const articles = () => {
             className='mb-16 lg:!text-5xl sm:!text-4xl xs:!text-3xl sm:mb-8'
           />
           <ul className='grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16'>
+          <FeaturedArticle
+              title='Real-Time Data Processing with Kafka and Node.js'
+              summary={`Hello everyone! I'm Kiran Kuyate, and in this article, we'll explore how Apache Kafka and Node.js combine to create efficient real-time data pipelines `}
+              time='7 min read'
+              img={av4}
+              link='https://kiran2157.hashnode.dev/real-time-data-processing-with-kafka-and-nodejs'
+            />
             <FeaturedArticle
               title='simple Git and GitHub 💖'
               summary='Learn how to use Git and github in your development,basic commands to some advance in simple words'

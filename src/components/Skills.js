@@ -29,9 +29,12 @@ const Skills = () => {
           Web
         </motion.div>
         <Skill name='HTML' x='-13vw' y='2vw' />
+        <Skill name='NextJs' x='-21vw' y='-2vw' />
         <Skill name='CSS' x='-8vw' y='-5vw' />
         <Skill name='Tailwindcss' x='28vw' y='3vw' />
-        <Skill name='AWS' x='-20vw' y='10vw' />
+        <Skill name='GraphQL' x='22vw' y='8vw' />
+        <Skill name='AWS' x='-19vw' y='10vw' />
+        <Skill name='Spring Boot' x='-25vw' y='14vw' />
         <Skill name='Javascript' x='14vw' y='6vw' />
         <Skill name='MERN' x='18vw' y='-15vw' />
         <Skill name='Data Analysis' x='3vw' y='-13vw' />
