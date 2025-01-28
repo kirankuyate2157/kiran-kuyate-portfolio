@@ -21,9 +21,8 @@ const CustomLink = ({ href, title, className = "" }) => {
     <Link href={href} className={`${className} relative group`}>
       {title}
       <span
-        className={`h-[1px] inline-block  bg-dark  dark:bg-light absolute  left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${
-          router.asPath === href ? "w-full" : "w-0"
-        }`}
+        className={`h-[1px] inline-block  bg-dark  dark:bg-light absolute  left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${router.asPath === href ? "w-full" : "w-0"
+          }`}
       >
         &nbsp;
       </span>
@@ -44,9 +43,8 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
     >
       {title}
       <span
-        className={`h-[1px] inline-block  bg-dark  dark:bg-light absolute  left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${
-          router.asPath === href ? "w-full" : "w-0"
-        }`}
+        className={`h-[1px] inline-block  bg-dark  dark:bg-light absolute  left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300 ${router.asPath === href ? "w-full" : "w-0"
+          }`}
       >
         &nbsp;
       </span>
@@ -67,19 +65,16 @@ const Navbar = () => {
         onClick={handleClick}
       >
         <span
-          className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${
-            isOpen ? "rotate-45 traslate-y-1" : "-translate-y-0.5"
-          }`}
+          className={`bg-dark dark:bg-light block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? "rotate-45 traslate-y-1" : "-translate-y-0.5"
+            }`}
         ></span>
         <span
-          className={`bg-dark dark:bg-light block transition-all duration-100 ease-out h-0.5 w-6 rounded-sm ${
-            isOpen ? "opacity-0" : "opacity-100"
-          }`}
+          className={`bg-dark dark:bg-light block transition-all duration-100 ease-out h-0.5 w-6 rounded-sm ${isOpen ? "opacity-0" : "opacity-100"
+            }`}
         ></span>
         <span
-          className={`bg-dark dark:bg-light block transition-all duration-400 ease-out h-0.5 w-6 rounded-sm ${
-            isOpen ? "-rotate-45 traslate-y-1" : "translate-y-0.5"
-          }`}
+          className={`bg-dark dark:bg-light block transition-all duration-400 ease-out h-0.5 w-6 rounded-sm ${isOpen ? "-rotate-45 traslate-y-1" : "translate-y-0.5"
+            }`}
         ></span>
       </button>
 
@@ -120,9 +115,8 @@ const Navbar = () => {
             onClick={() => {
               setMode(mode === "light" ? "dark" : "light");
             }}
-            className={`ml-3 flex items-center justify-center rounded-full p-1 ${
-              mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
-            }`}
+            className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
+              }`}
           >
             {mode == "dark" ? (
               <SunIcon className={"fill-dark"} />
@@ -130,6 +124,25 @@ const Navbar = () => {
               <MoonIcon className={"fill-dark"} />
             )}
           </button>
+          <motion.a
+              className='bg-red-700 px-4 hover:bg-primary cursor-pointer rounded-md py-1 sm:ml-0 ml-5 text-sm text-center items-center text-white'
+              whileInView={{
+                backgroundColor: [
+                  "#121212",
+                  "rgba(131,58,180,1)",
+                  "rgba(253,29,29,1)",
+                  "rgba(252,176,69,1)",
+                  "rgba(131,58,180,1)",
+                  "#121212",
+                ],
+                transition: { duration: 1, repeat: Infinity },
+              }}
+               target='_blank'
+              href='https://custome-portfolio.vercel.app/id/demo'
+            >
+              Try now!
+            </motion.a>
+
         </nav>
       </div>
 
@@ -196,9 +209,8 @@ const Navbar = () => {
                 setMode(mode === "light" ? "dark" : "light");
                 handleClick();
               }}
-              className={`flex items-center justify-center rounded-full p-1 ${
-                mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
-              }`}
+              className={`flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
+                }`}
             >
               {mode == "dark" ? (
                 <SunIcon className={"fill-dark"} />
@@ -206,6 +218,27 @@ const Navbar = () => {
                 <MoonIcon className={"fill-dark"} />
               )}
             </button>
+            <motion.a
+              className='bg-red-700 px-4 hover:bg-primary cursor-pointer rounded-md py-1 sm:ml-0 ml-5 text-sm text-center items-center text-white'
+              whileInView={{
+                backgroundColor: [
+                  "#121212",
+                  "rgba(131,58,180,1)",
+                  "rgba(253,29,29,1)",
+                  "rgba(252,176,69,1)",
+                  "rgba(131,58,180,1)",
+                  "#121212",
+                ],
+                transition: { duration: 1, repeat: Infinity },
+              }}
+
+              target='_blank'
+              href='https://custome-portfolio.vercel.app/id/demo'
+            >
+              Try now!
+            </motion.a>
+
+
           </nav>
         </motion.div>
       )}

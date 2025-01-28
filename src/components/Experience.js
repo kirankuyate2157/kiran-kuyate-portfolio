@@ -51,7 +51,19 @@ const Experience = () => {
           className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-primaryDark dark:shadow-primaryDark drop-shadow-2xl  md:w-[2px] md:left-[30px] xs:left-[20px]'
         />
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
-         
+        <Details
+            position='Associate Application Dev (Full Stack) '
+            company='Yugaantar Innovations'
+            time='July 2024 - Current'
+            address='Mumbai, India | Full-time'
+            work={
+              <p>
+                <strong>Food Delivery Platform:</strong> Developed a scalable full-stack platform managing the food delivery ecosystem with an admin panel for complete control over orders, users,configurations,settings, delivery agents, inventory, payments, all notifications, and promotions. Created a client app with data tracking, advanced wallet, Razorpay payments, real-time tracking, and customizable features. Implemented a microservices architecture with Redis, Celery, and task queues for background processing. Automated reporting tools for insights on orders, revenue, and performance. Ensured scalability, security, and RESTful API integration for future market growth.
+                <br/><br/>
+                <strong>Exam Competency Platform (Skill India):</strong> Built a web application for nationwide exam management, used by 30,000+ training centers daily. Managed exam scheduling,secure evidences collection and sharing, training center integration, and user roles while ensuring security and platform reliability. Utilized React (MERN), MySQL, Flask, AWS, Docker, and CSS for development. Contributed to Skill India’s initiative, ensuring smooth operations for millions of users.
+              </p>
+            }  />
+
         <Details
             position='Full stack dev INTERN'
             company='Search-In'

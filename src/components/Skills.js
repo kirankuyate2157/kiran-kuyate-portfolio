@@ -29,6 +29,7 @@ const Skills = () => {
           Web
         </motion.div>
         <Skill name='HTML' x='-13vw' y='2vw' />
+        <Skill name='FASTAPI' x='-9vw' y='9vw' />
         <Skill name='NextJs' x='-21vw' y='-2vw' />
         <Skill name='CSS' x='-8vw' y='-5vw' />
         <Skill name='Tailwindcss' x='28vw' y='3vw' />
@@ -36,6 +37,7 @@ const Skills = () => {
         <Skill name='AWS' x='-19vw' y='10vw' />
         <Skill name='Spring Boot' x='-25vw' y='14vw' />
         <Skill name='Javascript' x='14vw' y='6vw' />
+        <Skill name='Kafka' x='27vw' y='-15vw' />
         <Skill name='MERN' x='18vw' y='-15vw' />
         <Skill name='Data Analysis' x='3vw' y='-13vw' />
         <Skill name='python' x='0vw' y='12vw' />
@@ -45,12 +47,15 @@ const Skills = () => {
         <Skill name='SQL' x='-29vw' y='-6vw' />
         <Skill name='DSA' x='-29vw' y='5vw' />
         <Skill name='ElectronJs' x='-5vw' y='-19vw' />
+        <Skill name='Docker' x='7vw' y='-19vw' />
         <Skill name='AppWrite' x='-15vw' y='17vw' />
         <Skill name='Firebase' x='1vw' y='20vw' />
         <Skill name='Figma' x='8vw' y='24vw' />
         <Skill name='Canvas' x='17vw' y='15vw' />
+        <Skill name='Redis' x='7vw' y='15vw' />
         <Skill name='Django' x='17vw' y='-3vw' />
         <Skill name='Leadership' x='28vw' y='-7vw' />
+        <Skill name='Client Interaction' x='29vw' y='15vw' />
       </div>
     </>
   );
